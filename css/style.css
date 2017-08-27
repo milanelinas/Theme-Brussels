@@ -1,0 +1,982 @@
+/* reset styles */ 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+/* font face */ 
+
+@font-face {
+    font-family:  Quest;
+    src: url(Questrial-Regular.otf);
+}
+
+
+/*font-family: 'Lato', sans-serif;*/
+
+body {
+  font-size: 16px;
+  font-family: Quest;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+
+
+/* Header */
+
+.topheader { 
+        background: #f4f5f7;
+        border-top: 5px solid #2fc070;
+        color: #a5a7ac;
+        padding: 10px 0;
+        font-size: 14px;
+}
+
+.topheader ul.socialicons li  { 
+    display: inline-block;
+    padding: 0 10px;
+    text-align: right;
+    
+}
+
+.topheader ul.socialicons { 
+    display: inline-block;
+    text-align: right;
+}
+
+.topheader ul.links { 
+    display: inline-block;
+    text-align: right;
+}
+
+.topheader ul.links li { 
+    display: inline-block;
+    text-align: right;
+    padding: 0 5px
+}
+
+.topheader i.fa.fa-chevron-down { 
+    color: #2fc070;
+}
+
+
+/* nav */
+
+nav { 
+background: white!important;
+padding-top: 20px;
+padding-bottom: 20px;
+border: none!important;
+-webkit-box-shadow: 0px 4px 5px 0px rgba(186,186,186,1);
+-moz-box-shadow: 0px 4px 5px 0px rgba(186,186,186,1);
+box-shadow: 0px 4px 5px 0px rgba(186,186,186,1);
+}
+
+.navbar, 
+.navbar-default { 
+    margin: 0;
+}
+
+.navbar, 
+.navbar-default ul li a { 
+font-family: Quest;
+font-size: 17px;
+transition: 0.5s;
+color: #4b4e53!important;
+}
+
+.navbar, 
+.navbar-default ul li a:hover { 
+    color: #2fc070!important;
+}
+.navbar-brand { 
+    position: relative;
+    bottom: 8px
+}
+
+
+/* section hero */
+
+#heroimage { 
+    padding-top: 170px;
+    background: #eaecef;
+    padding-bottom: 170px;
+    
+}
+
+
+#heroimage h1 { 
+    font-size: 70px;
+    font-family: Quest; 
+    color: #434b57;
+    margin-bottom: 15px
+}
+
+#heroimage h2 { 
+font-family: Quest; 
+font-size: 32px;
+color: #2fc070;
+margin-bottom: 15px;
+}
+
+#heroimage p { 
+    font-family: Quest;
+    font-size: 22px;
+    line-height: 36px;
+    color: #6b6e75; 
+    margin-bottom: 15px;
+}
+
+#heroimage ul li { 
+    display: inline-block;
+    padding-right: 15px;
+}
+
+
+#heroimage ul li button { 
+    padding: 15px 50px;
+    border: 0;
+}
+
+#heroimage ul li button.b1 { 
+    background:#2fc070; 
+    color: white;
+}
+
+#heroimage ul li button.b2 { 
+    background:transparent; 
+    color: #323942;
+    border: 1px solid #323942;
+}
+
+#heroimage .owl-dot.active {
+    background: #2fc070;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+#heroimage .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: white;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#heroimage .owl-dots {
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+
+/* section features */
+
+
+section#features { 
+padding: 75px 0; 
+}
+
+
+section#features i { 
+display: inline-block;
+width: 70px;
+height: 70px;
+background: #2fc070;
+color: white;
+text-align: center;
+line-height: 70px;
+border-radius:50%;
+font-size: 32px;
+margin-right: 22px;
+    position: relative;
+    bottom: 15px;
+}
+
+section#features h3 { 
+display: inline-block; 
+font-family: Quest; 
+font-size: 24px;
+line-height: 32px;
+color: #4a515c;
+}
+
+section#features p { 
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #6b6e75;
+}
+
+
+/* section project */ 
+
+
+section#project { 
+    padding-top: 75px;
+    background:#f6f7f9;
+}
+
+
+
+section#project .col-md-3 { 
+    padding: 0!important;
+}
+
+section#project .container-fluid { 
+    padding: 0!important;
+}
+
+section#project figcaption { 
+    padding: 0!important;
+}
+
+.wbox {
+   position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    color: #323942;
+    width: 101%;
+    background: white;
+    padding: 10px 0;
+}
+
+.wbox p { 
+    text-align: center;
+}
+
+section#project ul li { 
+display: inline-block;
+margin-left: 10px;
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+background: #2fc070;
+color: white;
+font-size: 22px;
+}
+
+section#project ul { 
+position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+}
+
+section#project h2 { 
+    font-family: Quest; 
+    font-size: 44px;
+    line-height: 82px;
+    color: #4a515c;
+    text-align: center;
+}
+
+section#project .col-md-12 p { 
+    font-family: Quest;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+    color: #8d9198;
+    margin-bottom: 75px;
+}
+
+.triangle {
+    text-align: center;
+    position: relative;
+    top: 28px;
+    z-index: 11111;
+}
+
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
+    background-color: #dfe1e5;
+}
+.last h4 span { 
+margin: 50px; 0; 
+font-family: Quest; 
+font-size: 28px;
+line-height: 82px;
+color: #8d9198; 
+border-bottom: 1px solid #8d9198;
+text-align: center;
+}
+
+.last h4 { 
+text-align: center;
+}
+
+.last span { 
+    padding-bottom: 10px;
+   
+}
+
+.col-md-12.last {
+    padding: 15px 0 25px;
+}
+
+/* section next projct */
+
+section#nextproject { 
+    padding: 135px 0;
+}
+
+
+#nextproject .owl-dot.active {
+    background: #2fc070;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+#nextproject .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #7f7f7f;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#nextproject .owl-dots {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#nextproject .padd { 
+padding: 10px 50px;
+}
+
+#nextproject h2 {
+    font-family: Quest;
+    font-size: 52px;
+    color: #4a515c;
+    margin-bottom: 25px;
+}
+
+#nextproject h3 { 
+font-family: Quest; 
+font-size: 22px;
+color: #a5a8ae;
+margin-bottom: 25px;
+}
+
+#nextproject p {
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+line-height: 28px;
+color: #6b6e75;
+margin-bottom: 35px;
+}
+
+
+
+#nextproject ul li { 
+    display: inline-block;
+    padding-right: 15px;
+}
+
+
+#nextproject ul li button { 
+    padding: 15px 50px;
+    border: 0;
+}
+
+#nextproject ul li button.b1 { 
+    background:#2fc070; 
+    color: white;
+}
+
+#nextproject ul li button.b2 { 
+    background:transparent; 
+    color: #323942;
+    border: 1px solid #323942;
+}
+
+
+/* section table price */
+
+
+section#table { 
+    padding-top: 75px;
+    padding-bottom: 85px;
+    background: #f6f7f9;
+}
+
+
+section#table h2 { 
+    font-family: Quest; 
+    font-size: 44px;
+    line-height: 82px;
+    color: #4a515c;
+    text-align: center;
+}
+
+section#table  p { 
+    font-family: Quest;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: center;
+    color: #8d9198;
+    margin-bottom: 75px;
+}
+
+
+section#table .box { 
+ padding: 75px; 
+ width: 100%;
+ background: white;
+ text-align: center;
+}
+
+section#table h3 { 
+    font-family: Quest; 
+    font-size: 22px;
+    color: #4a515c; 
+    margin-bottom: 35px;
+}
+
+section#table h4 { 
+font-size: 50px;
+color: #2fc070;
+}
+
+section#table .aa { 
+font-size: 36px;
+position: relative;
+bottom: 9px;
+color: #2fc070;
+}
+
+section#table .bb { 
+font-size: 22px;
+color: #a5a8ae;
+position: relative;
+right: 7px;
+}
+
+section#table ul { 
+margin: 40px 0;
+color: #777777;
+}
+
+section#table ul li { 
+padding: 15px 0;
+}
+
+ section#table .fa-check { 
+ color: #2fc070; 
+}
+
+section#table i { 
+ padding-right: 5px;
+}
+
+
+section#table button { 
+    padding: 15px 50px;
+    border: 0;
+}
+
+section#table button.b1 { 
+    background:#2fc070; 
+    color: white;
+}
+
+section#table button.b2 { 
+    background:transparent; 
+    color: #323942;
+    border: 1px solid #323942;
+}
+
+section#table .boxbig { 
+ padding: 95px 0; 
+ width: 100%;
+ background: white;
+ text-align: center;
+ border: 3px solid #2fc070;
+ position: relative;
+    bottom: 25px
+    
+}
+
+ /* testimonials */
+
+section#testimonials { 
+padding: 75px 0 105px 0; 
+text-align: center;
+}
+
+
+
+
+#testimonials .owl-dot.active {
+    transform: scale(1);
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+}
+
+#testimonials .owl-dot.active:before {
+    content: ""; 
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    background: url(triangle.png);
+    left: 18px;
+    bottom: 104px;
+    z-index: 111
+        
+}
+
+
+#testimonials .owl-dot {
+    width: 77px;
+    height: 77px;
+    background: url(test1.png);
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    transform: scale(0.7);
+}
+
+#testimonials .owl-dots {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#testimonials p { 
+ font-size: 24px;
+ line-height: 42px;
+ color: #6b6e75;
+}
+
+#testimonials .item { 
+ border-bottom: 1px solid #6b6e75;
+ padding-bottom: 50px;
+}
+
+/* newsletter */
+
+#newsletter { 
+padding: 40px 0;
+background: #2fc070;
+}
+
+#newsletter h5 { 
+    font-size: 28px;
+    color: white;
+}
+
+#newsletter h5:after { 
+    content: "";
+    position: relative;
+    right: 10px;
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: white;
+}
+
+#newsletter input[type="text"],
+#newsletter input[type="email"] {
+    padding: 15px 180px 15px 10px;
+    margin-right: 15px;
+    
+}
+
+#newsletter input::placeholder {
+  color: #8c9097;
+}
+
+
+#newsletter button { 
+
+    background: #333a42;
+    border: 0;
+    color: white;
+    padding: 15px 40px;
+
+}
+
+
+/* footer */
+
+footer .links { 
+    background: #333a42;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+footer .links p { 
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+footer .links ul li { 
+display: inline-block;
+color: #ffffff;
+margin-right: 10px;
+width: 35px;
+height: 35px;
+border-radius: 50%;
+text-align: center;
+font-size: 18px;
+line-height: 35px;
+border: 1px solid #6c7177;
+}
+
+footer .links h2 { 
+font-size: 18px;
+margin-bottom: 32px;
+color: #ffffff;
+padding-top: 15px
+}
+
+footer .fbox img { 
+float: left;
+margin-right: 15px
+}
+
+footer .fbox h3 { 
+display: inline-block; 
+font-size: 16px;
+line-height: 22px;
+color: #ffffff;
+}
+
+
+footer .fbox { 
+margin-bottom: 15px
+}
+
+footer .fbox h5 { 
+color: #afb0b2;
+margin-top: 5px
+}
+
+footer .links button { 
+background: transparent;
+color: #afb0b2; 
+border: 1px solid #afb0b2;
+padding: 4px 10px;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+footer .links h4 { 
+ font-size: 18px;
+ line-height: 26px;
+ color: #ffffff;
+}
+
+footer .links h4 span { 
+color: #2fc070;
+}
+
+footer .copyright { 
+ padding: 30px 0;
+ font-size: 16px;
+ color: #9fa1a3;
+ background: #2d333a; 
+ position: relative;
+}
+ 
+footer .copyright ul { 
+float: right;
+}
+
+footer .copyright ul li { 
+display: inline-block;
+margin-left: 20px 
+}
+
+footer .upbox { 
+display: inline-block;
+position: absolute;
+right: 50px; 
+width:45px;
+height: 45px;
+top:17px;
+text-align: center;
+line-height: 45px;
+background: #2fc070;
+color: white;
+font-size: 32px;
+}
+
+
+/* Media Query (responsive) */
+
+
+@media screen and (max-width: 1281px) {
+    footer .upbox {
+    
+    position: absolute;
+    top: -24px;
+
+}
+    
+    @media screen and (max-width: 1025px) {
+    nav.navbar.navbar-default ul li a {
+    font-size: 14px;
+}
+.textholder {
+    text-align: center;
+}  
+        #heroimage h1 {
+    font-size: 50px;
+}
+        
+        #heroimage h2 {
+    font-family: Quest;
+    font-size: 28px;
+    color: #2fc070;
+    margin-bottom: 15px;
+}
+        
+        #heroimage {
+    padding-top: 120px;
+    background: #eaecef;
+    padding-bottom: 120px;
+}
+        
+        #heroimage .owl-dots {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+        
+        #nextproject ul li button {
+    padding: 15px 20px;
+    border: 0;
+}
+        
+        #nextproject ul li button {
+    padding: 15px 20px;
+    border: 0;
+}
+        
+        #nextproject h2 {
+    font-family: Quest;
+    font-size: 42px;
+    color: #4a515c;
+    margin-bottom: 10px;
+}
+        
+        #nextproject h3 {
+    font-family: Quest;
+    font-size: 18px;
+    color: #a5a8ae;
+    margin-bottom: 10px;
+}
+        
+        #nextproject p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6b6e75;
+    margin-bottom: 15px;
+}
+        
+        section#table h4 {
+    font-size: 30px;
+    color: #2fc070;
+}
+        section#table .aa {
+    font-size: 24px;
+    position: relative;
+    bottom: 9px;
+    color: #2fc070;
+}
+        section#table button {
+    padding: 10px 10px;
+        }
+        
+        #newsletter input[type="text"], #newsletter input[type="email"] {
+    padding: 15px 100px 15px 10px;
+    margin-right: 15px;
+}
+        footer .links h4 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+        footer .fbox h3 {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+}
+        footer .fbox h5 {
+    color: #afb0b2;
+    margin-top: 5px;
+    font-size: 12px;
+}
+        footer .links button {
+    background: transparent;
+    color: #afb0b2;
+    border: 1px solid #afb0b2;
+    padding: 4px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+        
+}
+    
+      @media screen and (max-width: 769px) {
+          .navbar-default ul li a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+          .navbar-brand>img {
+    display: block;
+    width: 200px;
+}
+          .pull-right {
+    float: none!important;
+}
+          .topheader { 
+            text-align: center;
+          }
+          
+          .topheader ul { 
+            margin-top: 10px;
+          }
+          
+          section#project {
+    padding-top: 75px;
+    background: #f6f7f9;
+    text-align: center;
+}
+          #newsletter input[type="text"], #newsletter input[type="email"] {
+    padding: 15px 60px 15px 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+          #newsletter h5 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+          #newsletter h5:after {
+    content: "";
+    position: relative;
+    right: 10px;
+    display: block;
+     width: 100%;
+    height: 2px;
+    background: white;
+    margin-top: 15px;
+}
+          
+          section#features i {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #2fc070;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 32px;
+    margin-right: 22px;
+    position: relative;
+    bottom: 15px;
+    margin-top: 38px;
+}
+          #nextproject h2 {
+    font-family: Quest;
+    font-size: 42px;
+    color: #4a515c;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+          footer .copyright ul {
+    float: none;
+}
+          .copyright {
+    text-align: center;
+}
+      .copyright    .col-sm-12 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+    }
+ @media screen and (max-width: 641px) {
+     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    text-align: center!important;
+}
+     #newsletter input[type="text"], #newsletter input[type="email"] {
+    padding: 15px 6px 15px 10px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+    }
+        
